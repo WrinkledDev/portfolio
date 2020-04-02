@@ -22,7 +22,7 @@
   margin-top: -15px;
 }
 
-/* MAIN NAVIGATION MENU */
+/* NAVBAR & ANNOUNCEMENT SECTION */
 
 #navbar {
   display: flex;
@@ -97,7 +97,7 @@
   font-weight: 500;
 }
 
-/* CONTAINER */
+/* WELCOME-SECTION */
 
 /* Jumbotron */
 #jumbotron {
@@ -110,10 +110,67 @@
   width: 85%;
 }
 
+/* FOOTER */
+#footer {
+  width: 100vw;
+  height: 15%;
+  padding: 20px;
+  background-color: rgba(50, 50, 50, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer-social-media,
+#footer-copyright {
+  color: white;
+  width: 80%;
+  height: auto;
+}
+
+#footer-social-media {
+  margin: 20px 0px;
+}
+
+#footer-social-media ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#footer-social-media li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+#footer-social-media a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#footer-social-media a:hover {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+#footer-social-media i {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+#footer-copyright {
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 /* MOBILE RESPONSIVENESS */
 
-/* 1000px */
-@media only screen and (max-width: 1000px) {
+/* 1039px */
+@media only screen and (max-width: 1039px) {
   #navbar {
     display: flex;
     flex-direction: column;
@@ -162,6 +219,62 @@
 
   #welcome-section {
     margin-top: 0px;
+  }
+
+  #footer-social-media {
+    margin: 5px 0px;
+  }
+
+  #footer-social-media a {
+    font-size: 1.2em;
+  }
+
+  #footer-social-media i {
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+
+  #footer-social-media {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  #footer-copyright {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+/* 835px */
+@media only screen and (max-width: 835px) {
+  #footer-social-media {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #footer-social-media ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer-social-media li {
+    list-style: none;
+    margin: 8px 0px;
+  }
+
+  #footer-social-media a {
+    font-size: 1.15em;
+  }
+
+  #footer-social-media i {
+    font-size: 1.15em;
+  }
+
+  #footer-copyright {
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
 }
 

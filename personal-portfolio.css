@@ -19,7 +19,7 @@
 /* WELCOME SECTION */
 #welcome-section {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: block;
   margin-top: -15px;
 }
@@ -87,7 +87,6 @@
   background-color: rgb(148, 221, 188);
   margin: 151px 0px 15px 0px;
   padding: 2px;
-  border: 1px solid red;
 }
 
 #status-announcement {
@@ -98,8 +97,6 @@
 }
 
 #about-section {
-  width: 100vw;
-  height: 97vh;
   display: flex;
   justify-content: center;
 }
@@ -107,7 +104,6 @@
 #about {
   width: 85%;
   padding: 20px;
-  border: 1px solid green;
 }
 
 #about-section h1 {
@@ -119,6 +115,8 @@
 
 /* PROJECT SECTION */
 #project-section {
+  width: 100vw;
+  height: auto;
   background-color: rgb(75, 72, 71);
   padding-top: 40px;
 }
@@ -133,8 +131,6 @@
 /* Projects */
 
 #projects {
-  width: 100vw;
-  height: auto;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -278,7 +274,6 @@
 
   #status-header {
     margin: 151px 0px 0px 0px;
-    border: 1px solid green;
   }
 
   #contact {

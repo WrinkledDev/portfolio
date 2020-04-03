@@ -27,7 +27,7 @@
 #navbar {
   display: flex;
   margin: -5px 0px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 1);
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -43,16 +43,13 @@
 
 #logo-image {
   width: 90px;
+  /* filter: brightness(0) invert(1); */
 }
 
 #logo-text {
   font-size: 3em;
   text-decoration: none;
-  color: rgba(1, 1, 1, 1);
-}
-
-#logo-text:hover {
-  color: rgba(1, 1, 1, 0.6);
+  color: rgba(0, 0, 0, 1);
 }
 
 /* Navigation menu */
@@ -68,14 +65,15 @@
 }
 
 .main-navigation-items a {
-  color: rgba(1, 1, 1, 1);
+  color: rgba(0, 0, 0, 1);
   text-decoration: none;
   font-size: 2em;
   margin-right: 40px;
 }
 
 .main-navigation-items a:hover {
-  color: rgba(1, 1, 1, 0.6);
+  color: rgba(227, 101, 91, 0.8);
+  /* color: rgba(0, 0, 0, 0.6); */
 }
 
 #contact {
@@ -86,14 +84,15 @@
 #status-header {
   text-align: center;
   width: 100%;
-  background-color: rgb(92, 216, 158);
+  background-color: rgb(148, 221, 188);
   margin: 145px 0px 20px 0px;
+  padding: 2px;
 }
 
 #status-announcement {
   font-size: 0.9em;
-  color: white;
-  padding: 5px 0px 10px;
+  color: rgba(255, 255, 255, 1);
+  padding: 5px 0px 5px;
   font-weight: 500;
 }
 
@@ -113,9 +112,9 @@
 /* FOOTER */
 #footer {
   width: 100vw;
-  height: 15%;
+  height: auto;
   padding: 20px;
-  background-color: rgba(50, 50, 50, 0.9);
+  background-color: rgb(75, 72, 71);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,7 +122,7 @@
 
 #footer-social-media,
 #footer-copyright {
-  color: white;
+  color: rgba(255, 255, 255, 1);
   width: 80%;
   height: auto;
 }
@@ -150,7 +149,7 @@
 }
 
 #footer-social-media a:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(227, 101, 91, 0.8);
   text-decoration: none;
 }
 
@@ -200,8 +199,6 @@
 
   #logo-text {
     font-size: 2.5em;
-    text-decoration: none;
-    color: rgba(1, 1, 1, 1);
   }
 
   .main-navigation-items {
@@ -211,10 +208,6 @@
   .main-navigation-items a {
     font-size: 1.8em;
     margin: 0px 30px;
-  }
-
-  #status-header {
-    margin: 145px 0px 20px 0px;
   }
 
   #welcome-section {
@@ -290,8 +283,6 @@
 
   #logo-text {
     font-size: 1.5em;
-    text-decoration: none;
-    color: rgba(1, 1, 1, 1);
   }
 
   .main-navigation-items a {

@@ -125,7 +125,7 @@
   font-size: 2em;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 /* Projects */
@@ -186,7 +186,7 @@
 #contact-section h2 {
   font-size: 2em;
   color: rgba(0, 0, 0, 1);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #contact-div {
@@ -196,7 +196,7 @@
 #contact-form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #contact-form label {

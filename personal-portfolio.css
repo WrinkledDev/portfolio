@@ -19,7 +19,7 @@
 /* WELCOME SECTION */
 #welcome-section {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   display: block;
   margin-top: -15px;
 }

@@ -177,16 +177,68 @@
   width: 100vw;
   height: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: rgba(255, 255, 255, 1);
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 #contact-section h2 {
   font-size: 2em;
-  text-align: center;
   color: rgba(0, 0, 0, 1);
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+#contact-div {
+  width: 80%;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 10px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+#contact-form textarea {
+  height: 150px;
+}
+
+#contact-form button {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(227, 101, 91, 0.8);
+  border: none;
+  border-radius: 5px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(227, 101, 91, 1);
+  border: none;
+  border-radius: 5px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 /* FOOTER SECTION */

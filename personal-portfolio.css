@@ -72,7 +72,7 @@
 }
 
 .main-navigation-items a:hover {
-  color: rgba(227, 101, 91, 0.8);
+  color: rgba(227, 101, 91, 1);
   /* color: rgba(0, 0, 0, 0.6); */
 }
 
@@ -84,9 +84,13 @@
 #status-header {
   text-align: center;
   width: 100%;
-  background-color: rgb(148, 221, 188);
+  background-color: rgba(148, 221, 188, 1);
   margin: 151px 0px 15px 0px;
   padding: 2px;
+}
+
+#status-header:hover {
+  background-color: rgba(148, 221, 188, 0.8);
 }
 
 #status-announcement {
@@ -97,28 +101,37 @@
 }
 
 #about-section {
+  width: 100vw;
+  height: auto;
   display: flex;
   justify-content: center;
+  border: 1px solid green;
 }
 
-#about {
-  width: 85%;
+#about-div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 20px;
+  border: 1px solid red;
 }
 
-#about-section h1 {
+#about-div h1 {
   font-size: 2em;
   text-align: center;
   color: rgba(0, 0, 0, 1);
   margin-bottom: 50px;
 }
 
+/* About */
+
 /* PROJECT SECTION */
 #project-section {
   width: 100vw;
   height: auto;
   background-color: rgb(75, 72, 71);
-  padding-top: 40px;
+  padding: 40px 0px;
 }
 
 #project-section h1 {
@@ -180,7 +193,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(255, 255, 255, 1);
-  margin-top: 40px;
+  padding: 40px 0px;
 }
 
 #contact-section h2 {
@@ -190,13 +203,13 @@
 }
 
 #contact-div {
-  width: 80%;
+  width: 70%;
 }
 
 #contact-form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 #contact-form label {
@@ -281,7 +294,7 @@
 }
 
 #footer-social-media a:hover {
-  color: rgba(227, 101, 91, 0.8);
+  color: rgba(227, 101, 91, 1);
   text-decoration: none;
 }
 
